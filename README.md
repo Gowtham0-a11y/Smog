@@ -21,7 +21,7 @@
 
 - Open the project in **Godot 4**
 - Click "Play" to run the game in the editor
-- 
+ 
 ## Developed By
 
 **Gowtham K.P**  
