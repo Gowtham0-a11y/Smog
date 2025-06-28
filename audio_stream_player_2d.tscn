@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyis1toh8cbgy"]
+
+[ext_resource type="AudioStream" uid="uid://gmmqfejdigmb" path="res://music/fur-elise-music-box-70375.mp3" id="1_yvfda"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_yvfda")
+autoplay = true
+bus = &"New Bus"

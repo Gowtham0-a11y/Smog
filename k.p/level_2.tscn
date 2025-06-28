@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dn84ly0s1ydsg"]
+
+[ext_resource type="PackedScene" uid="uid://pt4sllspeycg" path="res://k.p/level_1.tscn" id="1_3a8fr"]
+[ext_resource type="PackedScene" uid="uid://dgyuaq15o7ti8" path="res://areaexit.tscn" id="2_rhkwc"]
+
+[node name="level2" instance=ExtResource("1_3a8fr")]
+
+[node name="CharacterBody2D" parent="." index="1"]
+position = Vector2(12, 17)
+
+[node name="killzone" parent="." index="2"]
+position = Vector2(10, 31)
+
+[node name="areaexit" parent="enemy" index="4" instance=ExtResource("2_rhkwc")]
+position = Vector2(-585, 100)
